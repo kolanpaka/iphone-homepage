@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Lexend Deca', sans-serif;
+    color:white;
+    margin: 0px;
+   
+    
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    background-color:#313132;
+    padding: 10px;
+}
+
+.navigation-design{
+
+    width:1050px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+  
+}
+.menu{
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+    margin: 15px;
+    font-size: smaller;
+    color: white;
+}
+.search-icon{
+    display: inline-block;
+    margin:0 16px;
+    color: white;
+}
+.banner{
+    background-color: #532A69;
+    padding: 15px;
+}
+.banner-text{
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+    color: #DBDBDD;
+    font-size: smaller;
+    font-weight:300;
+
+}
+.section-area{
+    
+    padding-top: 30px;
+    text-align: center;
+}
+.section-color1{
+    background-color: #000000;
+}
+
+.link_color{
+    color: #2997FF;
+    font-size: larger; 
+    margin-bottom:10px;
+}
+.main-heading{
+    font-size:3.28em;
+    margin:10px 0;
+}
+.sub-heading{
+    font-size: xx-large;
+    margin:10px 0;
+}
+footer{
+    background-color: #F5F5F7;
+    padding: 30px 0;
+    color:#848487;
+    font-weight: lighter;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-content: center;
+    height:740px;
+    font-size: 12px;
+}
+article{
+    width: 1150px;
+    line-height:1.5em;
+}
+
+
+ul{
+    list-style-type:  none;
+}
+
+.nav-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-footer h4{
+    margin:revert;
+    color: #1D1D1F;
+}
+.nav-footer div{
+    margin: 6px;
+}
+.nav-footer div ul li{
+    margin:7px 0;
+}
+footer p a, .ab_  a{
+    margin: 0px;
+    font-size: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+.copyright-box{
+    display:flex;
+
+}
+.copyright-box .ab_{
+    margin-left:30px ;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.ab_ ul li{
+    display: inline;
+    margin:0 10px ;
+}
+.about{
+    
+    width:98.79vw;
+    height: 96vh;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.shop_all{
+    display: block;
+    color: #0368CD;
+    font-size:24px;
+    font-weight: lighter;
+    margin-top: 20px;
+
+}
+.more_details{
+    /* border: 1px solid black; */
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.about h1{
+    font-size: 50px;
+    color: #1D1D1F;
+    margin-bottom: 20px;
+
+}
+.box{
+    width: 280px;
+    text-align: center;
+    font-size: 21px;
+}
+.box h3{
+    margin: 15px;
+    color: #1D1D1F;
+    font-size: inherit;
+
+}
+.box div{
+    color: #282829;
+}
+.box a{
+    display: block;
+    color: #267CD2;
+    margin: 20px;
+    font-size: inherit;
+}
+.update_about{
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://www.apple.com/v/iphone/home/bk/images/overview/retail/why_apple__ezn1ktvka6oi_large.jpg);
+    height: 640px;
+    font-size: 21px;
+    color: #6F6F71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.update_about h1{
+    font-size: 41px;
+    color: #1D1D1F;
+    margin: 30px 0;
+}
+.update_about a{
+    display: block;
+    color: #267CD2;
+    margin: 20px 0;
+    font-size: inherit;
+}
